@@ -19,12 +19,18 @@ This is the code for DNInf - a method to find topic aware dyanamic influencer fo
 **Ouput embedding of largest copmonent **
 
 
-  Sample Output folder contains the embedding of 11,492 nodes for 9 snapshots. A tsne.py file is also provided to analyse the embdding of nodes of each snapshots.
-  
-  Run the tsne.py to visualise the nodes embedding for each snapshot.  
-  
-  The nodes in the sample output correspond to one of the largest connected components of Meetup dataset.
+      Sample Output folder contains the embedding of 11,492 nodes for 9 snapshots. A tsne.py file is also provided to analyse the embdding of nodes of each snapshots.
+      
+      Run the tsne.py to visualise the nodes embedding for each snapshot.  
+      
+      The nodes in the sample output correspond to one of the largest connected components of Meetup dataset.
 
 **Finding top k influencers and top r badges**
+
+        seed_finder.py finds the k best influencers. tag_finder.py finds the r best badges for the k best influencer.
+        
+        Run `python tag_finder.py' to find top 5 influencial members and top 2 influence badges.
+        
+        Run `python tag_finder.py number_of_influencial_users number_of_influence_tags' to get the output as top-k influencial nodes and top-r influence badges.
 
 
