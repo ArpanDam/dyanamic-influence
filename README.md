@@ -1,10 +1,22 @@
-# dyanamic-influence
-This code describes the process of DTInf
+## Creating venv
+conda create --name myenv python=3.6
 
+## Activate
+conda activate myenv
 
-seed_finder.py finds the k best influencers. badge_finder.py finds the r best badges for the k best influencer.
+## Install dependencies
+pip install -r requirements.txt
 
-Run `python badge_finder.py' to find top 5 influencial members and top 2 influence badges.
+## Setup
 
+python setup.py install
 
-Run `python tag_finder.py number_of_influencial_users number_of_influence_tags' to get the output as top-k influencial nodes and top-r influence badges.
+## Run
+python DynTriad.py 
+
+## Enter graph  full path
+
+example: D:\python_lib\DynamicGEM-master\Testing\dynamicgem-master2\dynamicgem-master\Graph10_v2_ta\formatted
+
+## For sample there is graph in path
+Graph10_v2_ta\formatted
