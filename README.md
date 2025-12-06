@@ -15,14 +15,14 @@ This is the code for DNInf - a method to find topic aware dyanamic influencer fo
     
     example: D:\python_lib\DynamicGEM-master\Testing\dynamicgem-master2\dynamicgem-master\Graph10_v2_ta\formatted   **## Enter graph  full path**
     
-    Graph10_v2_ta\formatted    **## For sample there is dummy graph in path**  formatted folder contains the input    snapshots. Each entry corresponds to nodeid. probability and embedding of topics
+    Graph10_v2_ta\formatted    **## For sample there is dummy graph in path**  formatted folder contains the input snapshots. Each entry corresponds to nodeid. probability and embedding of topics
 
     After running the code a output folder will be genretrated containing the embedding of all the nodes at every snapshot. the path will be: output\sbm_cd
     
 **Ouput embedding of largest copmonent **
 
 
-      Sample Output folder contains the embedding of 11,492 nodes for 9 snapshots. A tsne.py file is also provided to        analyse the embdding of nodes of each snapshots.
+      Sample Output folder contains the embedding of 11,492 nodes for 9 snapshots. A tsne.py file is also provided to analyse the embdding of nodes of each snapshots.
       
       Run the tsne.py to visualise the nodes embedding for each snapshot.  
       
@@ -36,6 +36,6 @@ This is the code for DNInf - a method to find topic aware dyanamic influencer fo
         
         Run `python badge_finder.py' to find top 5 influencial members and top 2 influence badges.
         
-        Run `python badge_finder.py number_of_influencial_users number_of_influence_tags' to get the output as top-k influencial nodes and top-r influence badges.
+        Run `python badge_finder.py number_of_influencial_users number_of_influence_badges' to get the output as top-k influencial nodes and top-r influence badges.
 
 
