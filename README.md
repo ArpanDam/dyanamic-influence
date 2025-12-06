@@ -19,7 +19,7 @@ This is the code for DNInf - a method to find topic aware dyanamic influencer fo
 
     After running the code a output folder will be genretrated containing the embedding of all the nodes at every snapshot. the path will be: output\sbm_cd
     
-**Ouput embedding of largest copmonent **
+**Ouput embedding of largest component **
 
 
       Sample Output folder contains the embedding of 11,492 nodes for 9 snapshots. A tsne.py file is also provided to analyse the embdding of nodes of each snapshots.
